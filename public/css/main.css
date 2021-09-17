@@ -16,18 +16,18 @@ h1,h2,h3,h4,h5,h6{
     border: #C4DDEA;
     font-weight: 600;
     font-size: 1.5rem;
-    color: #444;
+    color: #555;
 }
 .btn-primary:hover{
-    background-color: #C4DDEA;
-    border: #C4DDEA;
-    color:#444;
-    transform: scale(1.1);
+    background-color: #94cceb;
+    border: #94cceb;
+    color:#555;
+    /* transform: scale(1.1); */
 }
 .btn-primary:focus{
     background-color: #C4DDEA;
     border: #C4DDEA;
-    color:#444;
+    color:#555;
 }
 .nav-custom{
     background-color: #C4DDEA;

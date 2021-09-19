@@ -29,11 +29,23 @@ h1,h2,h3,h4,h5,h6{
     border: #C4DDEA;
     color:#555;
 }
+.bg-beagle{
+  background-color: #C4DDEA;
+}
 .nav-custom{
     background-color: #C4DDEA;
     font-family: 'Jost', sans-serif;
     font-size: 1.2rem;
 }
+.highlight{
+  text-decoration: underline;
+  font-weight: 500;
+}
+/* .footer{
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+} */
 /* .first{
     background-image: linear-gradient(45deg, white, #fad4d46c);
 }  

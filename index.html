@@ -28,6 +28,8 @@
         <link href="/public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <!-- ========================= Custom CSS ========================= -->
         <link rel="stylesheet" href="/public/css/main.css">
+        <!-- ========================= FontAwesome ========================= -->
+        <script src="https://kit.fontawesome.com/3aeebcae77.js" crossorigin="anonymous"></script>
         <title>The Beagle Pack</title>
     </head>
   <body>
@@ -41,7 +43,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="/info.html">More Info</a>
-            <a class="nav-link" href="https://venmo.com/Beagle-Pack" target="_blank" rel="noopener">7th Tradition</a>
+            <a class="nav-link" href="https://venmo.com/Beagle-Pack" target="_blank" rel="noopener">Venmo @Beagle-Pack</a>
             <!-- <a class="nav-link" href="#">Pricing</a>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
             <li class="nav-item dropdown">
@@ -70,13 +72,13 @@
             12p Mondays - Friday<br>
             10am Saturday.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="https://goo.gl/maps/qFgMUdbbVwR492Zc8" target="_blank" class="btn btn-primary btn-lg px-4 me-md-2">Directions</a>
-              <a href="/info.html" class="btn btn-outline-secondary btn-lg px-4">More Info</a>
+              <a href="https://goo.gl/maps/qFgMUdbbVwR492Zc8" target="_blank" class="btn btn-primary btn-lg px-4 me-md-2"><i class="far fa-hand-point-right"></i> Directions</a>
+              <a href="/info.html" class="btn btn-outline-secondary btn-lg px-4"><i class="far fa-hand-point-right"></i> More Info</a>
             </div>
           </div>
         </div>
       </div>
-    <!-- ========================= HEADING ========================= -->
+    <!-- ========================= GREETING ========================= -->
     <section class="container first rounded-3">
       <h2 class="featurette-heading">Greeting</h2>
       <p class="lead pb-5">
@@ -91,7 +93,7 @@
       <div class=" row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Preamble</h2>
-          <p class="lead mb-5">Anonymous is a fellowship of men & women who share their  experience, strength, and hope with each other that they may solve their common problem  and help others to recover from alcoholism. The only requirement for membership is a  desire to stop drinking. There are no dues or fees for AA membership. We are self supporting through our own contributions. AA is not allied with any sect, denomination,  politics, organization or institution; does not wish to engage itself in any controversy;  neither endorses nor opposes any causes. Our primary purpose is to stay sober and to help  other alcoholics achieve sobriety. </p>
+          <p class="lead mb-5">Alcoholics Anonymous is a fellowship of men & women who share their  experience, strength, and hope with each other that they may solve their common problem  and help others to recover from alcoholism. The only requirement for membership is a  desire to stop drinking. There are no dues or fees for AA membership. We are self supporting through our own contributions. AA is not allied with any sect, denomination,  politics, organization or institution; does not wish to engage itself in any controversy;  neither endorses nor opposes any causes. Our primary purpose is to stay sober and to help  other alcoholics achieve sobriety. </p>
         </div>
         <div class="col-md-5">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" src="/public/images/preamble.svg" width="500" height="500" alt="graphic of man reading a list">
@@ -117,12 +119,59 @@
     <!-- ========================= ANNOUNCEMENTS ========================= -->
     <section class="announcements container rounded-3">
       <hr class="featurette-divider">
+      <!-- Button trigger Zoom Special Reading modal -->
+      <button type="button" class="mb-3 btn btn-primary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#ZoomGuidelines">
+        <i class="far fa-hand-point-right"></i> Zoom Meeting Special Reading
+      </button>
+
+      <!-- Zoom Special Readings Modal -->
+      <div class="modal fade" id="ZoomGuidelines" tabindex="-1" aria-labelledby="ZoomGuidelinesLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ZoomGuidelinesLabel">Read to Introduce  info for background on Zoom Meetings at Beagle Pack</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                This resource has been created by members for members of Alcoholics Anonymous who wish to stay connected through audio/video meetings during the current global pandemic COVID-19. 
+              <p>
+                Virtual meetings are not a substitute for the regular meetings and face to face fellowship of Alcoholics Anonymous, but with current World Health Organization and Center for Disease Control recommendations for social distancing, we are grateful for the technology that can keep us connected in this way at this time. Please remember that anonymity is the spiritual foundation of this program. At this time, all meetings are closed unless otherwise specified. 
+              </p>
+              </p>
+              <p>
+                (**Out of respect for all attendees, non-adherence to this request may result in being disconnected from the meeting at the discretion of the meeting host. ) 
+              </p>
+              <p>
+                Participants can join the meeting with audio only which is a good option for those with less privacy at home - as long as you listen on a phone/headset you don't expose yourself or anyone else to household members. We all thank you for protecting our anonymity. Please remember that “Anonymity is the spiritual foundation of all our traditions, ever reminding us that who you see here, when you leave here, let it stay here!”
+              </p>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Current Announcements.<br> <span class="text-muted">*insert current announcements below.*</span> </h2>
+        <h2 class="featurette-heading"> Current Announcements: <br></h2>
         <p class="lead">
-          The Beagle Pack feels that sponsorship and home group participation are vital to sobriety. If you need a sponsor, want to be a sponsor or want to make The Beagle Pack your home group, please see the chairperson after the meeting, or bring it up as a topic for the meeting. May I have a show of hands of everyone willing and able to be a sponsor or to discuss sponsorship?</p>
+          The Beagle Pack Group Conscience meeting is the FIRST SATURDAY of each month at 11 a.m. following the regularly scheduled 10 A.M. meeting. All Home Group members are encouraged to attend this meeting. Beagle Pack meeting schedule cards are in the collection basket. All meetings are closed discussion except for the Friday night Speaker Meetings (temporarily on-hold), which are open.
+        </p>
+        <p class="lead">
+          Unless otherwise announced, all meetings are in this room. Smoking is discouraged on the church property. If you do smoke, please use the ashtray stand on the porch. Please straighten all chairs and pick up and discard any trash at the end of the meeting. 
+        </p>
+        <p class="lead">
+          We have AA related literature available for purchase and a speaker library from which members can check out CDs.
+        </p>
+        <p class="lead">
+          Members with long-term sobriety in this group feel that sponsorship and participation in a home group have been vital to their sobriety. If you need a sponsor, want to be a sponsor or want to join the Beagle Pack as a home group member please talk with me after the meeting. (Ask for a show of hands of persons willing and available to be sponsors.) 
+        </p>
+        <p class="lead">
+          If you are not on the email list but would like to be, please fill out one of the forms in the basket that is passed around. If your email address has changed, please do this also. Please give the form to the chairperson.
+        </p>
       </div>
       <div class="col-md-5">
         <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" src="/public/images/news.svg" width="500" height="500" alt="graphic of woman reading check mark screen on phone">
@@ -138,15 +187,13 @@
 
       <div class=" row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Regular Readings</h2>
-          <p class="lead">Please have one of these read. </p>
-          <!-- Button trigger How it Works modal -->
+          <h2 class="featurette-heading">Regular Readings<br><span class="text-muted">(read at every meeting)</span></h2>
+          <!-- =============Button trigger How it Works modal============= -->
           <button type="button" class="btn btn-primary btn-lg px-4 mb-2" data-bs-toggle="modal" data-bs-target="#howItWorks">
-            How it Works
+            <i class="far fa-hand-point-right"></i> How it Works
           </button>
           <br>
-  
-          <!-- How it Works Modal -->
+          <!-- =============How it Works Modal============= -->
           <div class="modal fade" id="howItWorks" tabindex="-1" aria-labelledby="howItWorksLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -209,12 +256,52 @@
               </div>
             </div>
           </div>
-          <!-- Button trigger More About Alcoholism modal -->
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#MoreAbout">
-            More About Alcoholism
+          <!-- =============Button trigger 12 Traditions modal============= -->
+          <button type="button" class="btn btn-primary btn-lg px-4 mb-2" data-bs-toggle="modal" data-bs-target="#Traditions">
+            <i class="far fa-hand-point-right"></i> 12 Traditions
+          </button>
+          <br>
+          <!-- ============= 12 Traditions Modal============= -->
+          <div class="modal fade" id="Traditions" tabindex="-1" aria-labelledby="TraditionsLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="TraditionsLabel">Twelve Traditions of Alcoholics Anonymous</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <ol>
+                      <li>Our common welfare should come first; personal recovery depends upon A.A. unity.</li>
+                      <li>For our group purpose there is but one ultimate authority—a loving God as He may express Himself in our group conscience. Our leaders are but trusted servants; they do not govern.</li>
+                      <li>The only requirement for A.A. membership is a desire to stop drinking.</li>
+                      <li>Each group should be autonomous except in matters affecting other groups or A.A.as a whole.</li>
+                      <li>Each group has but one primary purpose—to carry its message to the alcoholic who still suffers.</li>
+                      <li>An A.A.group ought never endorse, finance, or lend the A.A.name to any related facility or outside enterprise, lest problems of money, property, and prestige divert us from our primary purpose.</li>
+                      <li>Every A.A.group ought to be fully self-supporting, declining outside contributions.</li>
+                      <li>Alcoholics Anonymous should remain forever nonprofessional, but our service centers may employ special workers.</li>
+                      <li>A.A., as such, ought never be organized; but we may create service boards or committees directly responsible to those they serve.</li>
+                      <li>Alcoholics Anonymous has no opinion on outside issues; hence the A.A.name ought never be drawn into public controversy.</li>
+                      <li>Our public relations policy is based on attraction rather than promotion; we need always maintain personal anonymity at the level of press, radio, and films.</li>
+                      <li>Anonymity is the spiritual foundation of all our Traditions, ever reminding us to place principles before personalities.</li>
+                    </ol>
+                  </p>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ============= ADDITIONAL, OPTIONAL READINGS ============= -->
+          <p class="lead">Additional, optional readings below: </p>
+          
+          <!-- =============Button trigger More About Alcoholism modal============= -->
+          <button type="button" class="mb-3 btn btn-outline-secondary btn-md px-4" data-bs-toggle="modal" data-bs-target="#MoreAbout">
+            <i class="far fa-hand-point-right"></i> More About Alcoholism
           </button>
   
-          <!-- More About Alocholism Modal -->
+          <!-- =============More About Alocholism Modal============= -->
           <div class="modal fade" id="MoreAbout" tabindex="-1" aria-labelledby="MoreAboutLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -234,6 +321,63 @@
                   </p>
                   <p>
                     We are like men who have lost their legs; they never grow new ones. Neither does there appear to be any kind of treatment which will make alcoholics of our kind like other men. We have tried every imaginable remedy. In some instances, there has been brief recovery, followed always by a still worse relapse. Physicians who are familiar with alcoholism agree there is no such thing as making a normal drinker out of an alcoholic. Science may one day accomplish this, but it hasn’t done so yet.
+                  </p>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- =============Button trigger 9th Step Promises modal============= -->
+          <button type="button" class="mb-3 btn btn-outline-secondary btn-md px-4" data-bs-toggle="modal" data-bs-target="#Promises">
+            <i class="far fa-hand-point-right"></i> 9th Step Promises
+          </button>
+  
+          <!-- ============= 9th Step Promises Modal============= -->
+          <div class="modal fade" id="Promises" tabindex="-1" aria-labelledby="PromisesLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="PromisesLabel">9th Step Promises from Pages 83-84 in Big Book of AA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    If we are painstaking about this phase of our development, we will be amazed before we are halfway through. We are going to know a new freedom and a new happiness. We will not regret the past nor wish to shut the door on it. We will comprehend the word serenity and we will know peace. No matter how far down the scale we have gone, we will see how our experience can benefit others. That feeling of uselessness and self-pity will disappear. We will lose interest in selfish things and gain interest in our fellows. Self-seeking will slip away. Our whole atti-tude and outlook upon life will change. Fear of people and of economic insecurity will leave us. We will intuitively know how to handle situations which used to baffle us. We will suddenly realize that God is doing for us what we could not do for ourselves. 
+                  </p>
+                  <p>
+                    Are these extravagant promises? We think not. They are being fulfilled among us—sometimes quickly, sometimes slowly. They will always materialize if we work for them.
+                  </p>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- =============Button trigger A Vision for You modal============= -->
+          <button type="button" class="mb-3 btn btn-outline-secondary btn-md px-4" data-bs-toggle="modal" data-bs-target="#Vision">
+            <i class="far fa-hand-point-right"></i> A Vision for You
+          </button>
+  
+          <!-- ============= A Vision for You Modal============= -->
+          <div class="modal fade" id="Vision" tabindex="-1" aria-labelledby="VisionLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="VisionLabel">A Vision For You from Page 164 in Big Book of AA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Our book is meant to be suggestive only. We realize we know only a little. God will constantly disclose more to you and to us. Ask Him in your morning meditation what you can do each day for the man who is still sick. The answers will come, if your own house is in order. But obviously you cannot transmit something you haven’t got. See to it that your relationship with Him is right, and great events will come to pass for you and countless others. This is the Great Fact for us.
+                  </p>
+                  <p>
+                    Abandon yourself to God as you understand God. Admit your faults to Him and to your fellows. Clear away the wreckage of your past. Give freely of what you find and join us. We shall be with you in the Fellowship of the Spirit, and you will surely meet some of us as you trudge the Road of Happy Destiny. 
+                  </p>
+                  <p>
+                    May God bless you and keep you—until then.
                   </p>
                   </div>
                   <div class="modal-footer">
@@ -285,7 +429,7 @@
     <section class="container rounded-3 mb-5">
       <h2 class="featurette-heading">Meeting</h2>
       <p class="lead pb-5">
-        Halfway through the meeting, pass the basket and say “the seventh tradition  states we are self-supporting through our own contributions.” A donation link is also available online:<br><a href="https://venmo.com/Beagle-Pack" target="_blank" rel="noopener" class="btn btn-primary btn-sm px-4 me-md-2">7th Tradition</a> 
+        Halfway through the meeting - 7th Tradition - “the seventh tradition  states we are self-supporting through our own contributions.” A donation link is also available online:<br><a href="https://venmo.com/Beagle-Pack" target="_blank" rel="noopener" class="btn btn-primary btn-sm px-4 me-md-2"><i class="far fa-hand-point-right"></i> 7th Tradition</a> 
       </p>
       <p class="lead">
         

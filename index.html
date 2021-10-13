@@ -34,7 +34,7 @@
     </head>
   <body>
     <!-- ========================= NAVBAR ========================= -->
-    <nav class="navbar navbar-expand-lg navbar-light nav-custom">
+    <nav class="navbar navbar-expand navbar-light nav-custom">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Beagle Pack</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,17 +44,6 @@
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="/info.html">More Info</a>
             <a class="nav-link" href="https://venmo.com/Beagle-Pack" target="_blank" rel="noopener">Venmo @Beagle-Pack</a>
-            <!-- <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownZoomLinks" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Zoom Links
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownZoomLinks">
-                <li><a class="dropdown-item" href="https://us02web.zoom.us/j/554843107" target="_blank" rel="noopener">Wed 12p</a></li>
-                <li><a class="dropdown-item" href="https://us02web.zoom.us/j/524810651" target="_blank" rel="noopener">Sat 10am</a></li>
-              </ul>
-            </li>
           </div>
         </div>
       </div>
@@ -67,17 +56,59 @@
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">The Beagle Pack</h1>
-          <p class="lead">Closed AA Meeting<br>
-            First United Methodist Church in Ridgeland<br>
-            12p Mondays - Friday<br>
-            10am Saturday.</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="https://goo.gl/maps/qFgMUdbbVwR492Zc8" target="_blank" class="btn btn-primary btn-lg px-4 me-md-2"><i class="far fa-hand-point-right"></i> Directions</a>
-              <a href="/info.html" class="btn btn-outline-secondary btn-lg px-4"><i class="far fa-hand-point-right"></i> More Info</a>
-            </div>
-          </div>
+          <p class="fs-4 text-muted">
+            Closed AA Meeting<br>
+              <a href="https://goo.gl/maps/qFgMUdbbVwR492Zc8" rel="noopener" target="_blank" class="btn btn-outline-secondary btn-sm"><i class="fas fa-map-marker"></i> First United Methodist Church in Ridgeland</a>
+              <br>
+            </p>
+            <p>
+              12p Mondays - Friday<br>
+              10am Saturday.<br>
+            </p>
+            <hr>
+            <p class="fs-4 text-muted">
+              Zoom Links
+            </p>
+            <p>
+              <a href="https://us02web.zoom.us/j/554843107" rel="noopener" target="_blank" class="btn btn-outline-secondary"><i class="fas fa-video"></i> 12p Wednesday</a>
+              <a href="https://us02web.zoom.us/j/524810651" rel="noopener" target="_blank" class="btn btn-outline-secondary"><i class="fas fa-video"></i> 10a Saturday</a>
+            </p>
+                        <!-- Button trigger Zoom Special Reading modal -->
+                <button type="button" class="mb-3 btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#ZoomGuidelines">
+                  <i class="fas fa-book-reader"></i> Zoom Meeting Special Reading
+                </button>
+
+                <!-- Zoom Special Readings Modal -->
+                <div class="modal fade" id="ZoomGuidelines" tabindex="-1" aria-labelledby="ZoomGuidelinesLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="ZoomGuidelinesLabel">Read to Introduce  info for background on Zoom Meetings at Beagle Pack</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          This resource has been created by members for members of Alcoholics Anonymous who wish to stay connected through audio/video meetings during the current global pandemic COVID-19. 
+                        <p>
+                          Virtual meetings are not a substitute for the regular meetings and face to face fellowship of Alcoholics Anonymous, but with current World Health Organization and Center for Disease Control recommendations for social distancing, we are grateful for the technology that can keep us connected in this way at this time. Please remember that anonymity is the spiritual foundation of this program. At this time, all meetings are closed unless otherwise specified. 
+                        </p>
+                        </p>
+                        <p>
+                          (**Out of respect for all attendees, non-adherence to this request may result in being disconnected from the meeting at the discretion of the meeting host. ) 
+                        </p>
+                        <p>
+                          Participants can join the meeting with audio only which is a good option for those with less privacy at home - as long as you listen on a phone/headset you don't expose yourself or anyone else to household members. We all thank you for protecting our anonymity. Please remember that “Anonymity is the spiritual foundation of all our traditions, ever reminding us that who you see here, when you leave here, let it stay here!”
+                        </p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         </div>
       </div>
+    </div>
     <!-- ========================= GREETING ========================= -->
     <section class="container first rounded-3">
       <h2 class="featurette-heading">Greeting</h2>
@@ -119,40 +150,7 @@
     <!-- ========================= ANNOUNCEMENTS ========================= -->
     <section class="announcements container rounded-3">
       <hr class="featurette-divider">
-      <!-- Button trigger Zoom Special Reading modal -->
-      <button type="button" class="mb-3 btn btn-primary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#ZoomGuidelines">
-        <i class="far fa-hand-point-right"></i> Zoom Meeting Special Reading
-      </button>
-
-      <!-- Zoom Special Readings Modal -->
-      <div class="modal fade" id="ZoomGuidelines" tabindex="-1" aria-labelledby="ZoomGuidelinesLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="ZoomGuidelinesLabel">Read to Introduce  info for background on Zoom Meetings at Beagle Pack</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>
-                This resource has been created by members for members of Alcoholics Anonymous who wish to stay connected through audio/video meetings during the current global pandemic COVID-19. 
-              <p>
-                Virtual meetings are not a substitute for the regular meetings and face to face fellowship of Alcoholics Anonymous, but with current World Health Organization and Center for Disease Control recommendations for social distancing, we are grateful for the technology that can keep us connected in this way at this time. Please remember that anonymity is the spiritual foundation of this program. At this time, all meetings are closed unless otherwise specified. 
-              </p>
-              </p>
-              <p>
-                (**Out of respect for all attendees, non-adherence to this request may result in being disconnected from the meeting at the discretion of the meeting host. ) 
-              </p>
-              <p>
-                Participants can join the meeting with audio only which is a good option for those with less privacy at home - as long as you listen on a phone/headset you don't expose yourself or anyone else to household members. We all thank you for protecting our anonymity. Please remember that “Anonymity is the spiritual foundation of all our traditions, ever reminding us that who you see here, when you leave here, let it stay here!”
-              </p>
-              </div>
-              <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      
 
     <div class="row featurette">
       <div class="col-md-7">
